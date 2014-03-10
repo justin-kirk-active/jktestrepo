@@ -45,8 +45,8 @@ repo --name="RPMFusionFree-Updates" --mirrorlist=http://mirrors.rpmfusion.org/mi
 
 #repo --name="RPMFusionNon-Free" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/20/Everything/x86_64/os/ --cost=1000
 #repo --name="RPMFusionNon-Free-Updates" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/20/x86_64/ --cost=1000
-repo --name="RPMFusionNon-Free" --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-released-20&arch=x86_64 --cost=1000
-repo --name="RPMFusionNon-Free-Updates" --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-20&arch=x86_64 --cost=1000
+repo --name="RPMFusionNon-Free" --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-20&arch=x86_64 --cost=1000
+repo --name="RPMFusionNon-Free-Updates" --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-20&arch=x86_64 --cost=1000
 #repo --name="VirtualBox" --baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/20/x86_64/ --cost=1000
 
 # KP - development repositories
