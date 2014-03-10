@@ -38,7 +38,7 @@ repo --name="Fedora20-x86_64-Updates" --baseurl=http://dl.fedoraproject.org/pub/
 repo --name="Korora20" --baseurl=http://dl.kororaproject.org/pub/korora/releases/20/x86_64/ --cost=10
 
 repo --name="RPMFusionFree" --baseurl=http://download1.rpmfusion.org/free/fedora/releases/20/Everything/x86_64/os/ --cost=1000
-repo --name="RPMFusionFree - Updates" --baseurl=http://download1.rpmfusion.org/free/fedora/updates/20/x86_64/ --cost=1000
+repo --name="RPMFusionFree-Updates" --baseurl=http://download1.rpmfusion.org/free/fedora/updates/20/x86_64/ --cost=1000
 
 repo --name="RPMFusionNon-Free" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/20/Everything/x86_64/os/ --cost=1000
 repo --name="RPMFusionNon-Free-Updates" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/20/x86_64/ --cost=1000
