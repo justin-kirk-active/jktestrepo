@@ -38,11 +38,15 @@ repo --name="Fedora20-x86_64-Updates" --baseurl=http://dl.fedoraproject.org/pub/
 #repo --name="Korora20" --baseurl=%%KP_REPOSITORY%%/releases/20/x86_64/ --cost=10
 repo --name="Korora20" --baseurl=http://dl.kororaproject.org/pub/korora/releases/20/x86_64/ --cost=10
 
-repo --name="RPMFusionFree" --baseurl=http://download1.rpmfusion.org/free/fedora/releases/20/Everything/x86_64/os/ --cost=1000
-repo --name="RPMFusionFree-Updates" --baseurl=http://download1.rpmfusion.org/free/fedora/updates/20/x86_64/ --cost=1000
+#repo --name="RPMFusionFree" --baseurl=http://download1.rpmfusion.org/free/fedora/releases/20/Everything/x86_64/os/ --cost=1000
+repo --name="RPMFusionFree" --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-20&arch=$basearch --cost=1000
+#repo --name="RPMFusionFree-Updates" --baseurl=http://download1.rpmfusion.org/free/fedora/updates/20/x86_64/ --cost=1000
+repo --name="RPMFusionFree-Updates" --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-20&arch=$basearch --cost=1000
 
-repo --name="RPMFusionNon-Free" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/20/Everything/x86_64/os/ --cost=1000
-repo --name="RPMFusionNon-Free-Updates" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/20/x86_64/ --cost=1000
+#repo --name="RPMFusionNon-Free" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/20/Everything/x86_64/os/ --cost=1000
+#repo --name="RPMFusionNon-Free-Updates" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/20/x86_64/ --cost=1000
+repo --name="RPMFusionNon-Free" --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-released-20&arch=x86_64 --cost=1000
+repo --name="RPMFusionNon-Free-Updates" --mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-20&arch=x86_64 --cost=1000
 #repo --name="VirtualBox" --baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/20/x86_64/ --cost=1000
 
 # KP - development repositories
@@ -450,8 +454,8 @@ systemctl enable tmp.mount
 # work around for poor key import UI in PackageKit
 rm -f /var/lib/rpm/__db*
 #rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora
-rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-primary
-rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-secondary
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-20-primary
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-20-secondary
 echo "Packages within this LiveCD"
 rpm -qa
 # Note that running rpm recreates the rpm db files which aren't needed or wanted
