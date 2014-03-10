@@ -48,7 +48,7 @@ repo --name="Korora20" --baseurl=http://dl.kororaproject.org/pub/korora/releases
 #repo --name="RPMFusionNon-Free-Updates" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/20/x86_64/ --cost=1000
 #repo --name="RPMFusionNon-Free" --mirrorlist="http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-20&arch=x86_64"
 #repo --name="RPMFusionNon-Free-Updates" --mirrorlist="http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-20&arch=x86_64"
-#repo --name="VirtualBox" --baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/20/x86_64/ --cost=1000
+repo --name="VirtualBox" --baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/20/x86_64/ --cost=1000
 
 # KP - development repositories
 #repo --name="Fedora 20 - x86_64" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/development/20/x86_64/os/ --cost=1000
@@ -114,7 +114,7 @@ google-talkplugin-release
 #ksplice-uptrack
 rpmfusion-free-release
 rpmfusion-nonfree-release
-#virtualbox-release
+virtualbox-release
 
 #
 # (RE)BRANDING
