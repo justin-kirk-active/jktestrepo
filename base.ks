@@ -56,7 +56,7 @@ repo --name="RPMFusionNon-Free-Updates" --baseurl=http://download1.rpmfusion.org
 #repo --name="RPMFusion Free - Development" --baseurl=http://download1.rpmfusion.org/free/fedora/development/rawhide/x86_64/os/ --cost=1000
 #repo --name="RPMFusion Non-Free - Development" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/development/rawhide/x86_64/os/ --cost=1000
 
-url --url=http://dl.fedoraproject.org/pub/fedora/linux/releases/20/Everything/x86_64/os/ --cost=1000
+url --url=http://dl.fedoraproject.org/pub/fedora/linux/releases/20/Everything/x86_64/os
 
 #
 # PACKAGES
