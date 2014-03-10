@@ -11,7 +11,8 @@
 # KP:DESCRIPTION:END
 #
 
-%include %%KP_KICKSTART_DIR%%/base.ks
+#%include %%KP_KICKSTART_DIR%%/base.ks
+%include https://raw.github.com/kororaproject/kp-config/master/kickstart.d/base.ks
 
 #repo --name="Cinnamon" --baseurl=http://repos.fedorapeople.org/repos/leigh123linux/Cinnamon/fedora-%%KP_VERSION%%/%%KP_BASEARCH%%/ --cost=1000
 
