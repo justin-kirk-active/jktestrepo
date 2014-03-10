@@ -20,6 +20,7 @@ services --enabled=ksmtuned,lirc,NetworkManager,restorecond,spice-vdagentd --dis
 clearpart --all
 part / --size 8192 --fstype ext4
 
+rootpw 1smile2
 #
 # REPOS
 
