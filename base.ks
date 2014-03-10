@@ -173,11 +173,11 @@ sane-backends-drivers-cameras
 
 #
 # MULTIMEDIA
-flash-plugin-helper
-flash-plugin
+#flash-plugin-helper
+#flash-plugin
 #remove 32bit, now that we don't ship steam
 #flash-plugin.i386
-dvb-apps
+#dvb-apps
 #ffmpeg
 #libaacs
 
