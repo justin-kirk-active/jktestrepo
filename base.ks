@@ -25,41 +25,41 @@ rootpw 1smile2
 # REPOS
 
 # KP - production repositories
-repo --name="AdobeSystemsIncorporated" --baseurl=http://linuxdownload.adobe.com/linux/x86_64/ --cost=1000
+repo --name="AdobeSystemsIncorporated" --baseurl=http://linuxdownload.adobe.com/linux/x86_64/
 # We need 32bit for 64bit images also
-#repo --name="Adobe Systems Incorporated - 32bit" --baseurl=http://linuxdownload.adobe.com/linux/i386/ --cost=1000
+#repo --name="Adobe Systems Incorporated - 32bit" --baseurl=http://linuxdownload.adobe.com/linux/i386/
 
-repo --name="Fedora20-x86_64" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/releases/20/Everything/x86_64/os/ --cost=1000
-repo --name="Fedora20-x86_64-Updates" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/updates/20/x86_64/ --cost=1000
-#repo --name="Fedora20-x86_64-UpdatesTesting" --baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/testing/20/x86_64/ --cost=1000
+repo --name="Fedora20-x86_64" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/releases/20/Everything/x86_64/os/
+repo --name="Fedora20-x86_64-Updates" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/updates/20/x86_64/
+#repo --name="Fedora20-x86_64-UpdatesTesting" --baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/testing/20/x86_64/
 
-#repo --name="GoogleChrome" --baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64/ --cost=1000
+#repo --name="GoogleChrome" --baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64/
 
 # KORORA REPOS, set to remote for release, local for testing
-#repo --name="Korora20" --baseurl=%%KP_REPOSITORY%%/releases/20/x86_64/ --cost=10
-repo --name="Korora20" --baseurl=http://dl.kororaproject.org/pub/korora/releases/20/x86_64/ --cost=10
+#repo --name="Korora20" --baseurl=%%KP_REPOSITORY%%/releases/20/x86_64/
+repo --name="Korora20" --baseurl=http://dl.kororaproject.org/pub/korora/releases/20/x86_64/
 
-#repo --name="RPMFusionFree" --baseurl=http://download1.rpmfusion.org/free/fedora/releases/20/Everything/x86_64/os/ --cost=1000
+#repo --name="RPMFusionFree" --baseurl=http://download1.rpmfusion.org/free/fedora/releases/20/Everything/x86_64/os/
 #repo --name="RPMFusionFree" --mirrorlist="http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-20&arch=x86_64"
-#repo --name="RPMFusionFree-Updates" --baseurl=http://download1.rpmfusion.org/free/fedora/updates/20/x86_64/ --cost=1000
+#repo --name="RPMFusionFree-Updates" --baseurl=http://download1.rpmfusion.org/free/fedora/updates/20/x86_64/
 #repo --name="RPMFusionFree-Updates" --mirrorlist="http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-20&arch=x86_64"
 
-#repo --name="RPMFusionNon-Free" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/20/Everything/x86_64/os/ --cost=1000
-#repo --name="RPMFusionNon-Free-Updates" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/20/x86_64/ --cost=1000
+#repo --name="RPMFusionNon-Free" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/20/Everything/x86_64/os/
+#repo --name="RPMFusionNon-Free-Updates" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/20/x86_64/
 #repo --name="RPMFusionNon-Free" --mirrorlist="http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-20&arch=x86_64"
 #repo --name="RPMFusionNon-Free-Updates" --mirrorlist="http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-20&arch=x86_64"
-#repo --name="VirtualBox" --baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/20/x86_64/ --cost=1000
+#repo --name="VirtualBox" --baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/20/x86_64/
 
 # KP - development repositories
-#repo --name="Fedora 20 - x86_64" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/development/20/x86_64/os/ --cost=1000
-#repo --name="Fedora 20 - x86_64 Updates Released" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/updates/20/x86_64/ --cost=1000
-#repo --name="Fedora 20 - x86_64 Updates Testing" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/updates/testing/20/x86_64/ --cost=1000
+#repo --name="Fedora 20 - x86_64" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/development/20/x86_64/os/
+#repo --name="Fedora 20 - x86_64 Updates Released" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/updates/20/x86_64/
+#repo --name="Fedora 20 - x86_64 Updates Testing" --baseurl=http://dl.fedoraproject.org/pub/fedora/linux/updates/testing/20/x86_64/
 
-#repo --name="RPMFusion Free - Development" --baseurl=http://download1.rpmfusion.org/free/fedora/development/20/x86_64/os/ --cost=1000
-#repo --name="RPMFusion Non-Free - Development" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/development/20/x86_64/os/ --cost=1000
+#repo --name="RPMFusion Free - Development" --baseurl=http://download1.rpmfusion.org/free/fedora/development/20/x86_64/os/
+#repo --name="RPMFusion Non-Free - Development" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/development/20/x86_64/os/
 # RAWHIDE - use when RPM Fusion has not yet branched (usually because fedora is still pre-beta)
-#repo --name="RPMFusion Free - Development" --baseurl=http://download1.rpmfusion.org/free/fedora/development/rawhide/x86_64/os/ --cost=1000
-#repo --name="RPMFusion Non-Free - Development" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/development/rawhide/x86_64/os/ --cost=1000
+#repo --name="RPMFusion Free - Development" --baseurl=http://download1.rpmfusion.org/free/fedora/development/rawhide/x86_64/os/
+#repo --name="RPMFusion Non-Free - Development" --baseurl=http://download1.rpmfusion.org/nonfree/fedora/development/rawhide/x86_64/os/
 
 url --url=http://dl.fedoraproject.org/pub/fedora/linux/releases/20/Everything/x86_64/os
 

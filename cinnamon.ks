@@ -14,7 +14,7 @@
 #%include %%KP_KICKSTART_DIR%%/base.ks
 %include https://raw.github.com/justin-kirk-active/jktestrepo/master/base.ks
 
-#repo --name="Cinnamon" --baseurl=http://repos.fedorapeople.org/repos/leigh123linux/Cinnamon/fedora-%%KP_VERSION%%/%%KP_BASEARCH%%/ --cost=1000
+#repo --name="Cinnamon" --baseurl=http://repos.fedorapeople.org/repos/leigh123linux/Cinnamon/fedora-%%KP_VERSION%%/%%KP_BASEARCH%%/
 
 #
 # PACKAGES
